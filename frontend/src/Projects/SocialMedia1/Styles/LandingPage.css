@@ -34,11 +34,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--buttonBg);
+    color: snow;
     border: none;
     border-radius: 0.5rem;
-    background: var(--buttonBg);
+    background: rgb(130, 130, 251);
     transition: all 100ms ease-out;
+    box-shadow: 1px 1px 18px 1px rgba(0, 0, 255, 0.6);
 }
 
 .button:hover {
@@ -46,7 +47,7 @@
     color: black;
     background: snow;
     font-weight: bold;
-    box-shadow: 1px 1px 9px 1px gray;
+    box-shadow: 1px 1px 18px 1px rgba(91, 91, 91, 0.6);
 }
 
 ::-webkit-scrollbar {
