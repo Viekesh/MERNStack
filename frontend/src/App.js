@@ -5,11 +5,11 @@ import SMRoutes from './Projects/SocialMedia1/SMRoutes';
 
 const App = () => {
   return (
-    <div>
+    <>
       <BrowserRouter>
         <SMRoutes />
       </BrowserRouter>
-    </div>
+    </>
   )
 }
 

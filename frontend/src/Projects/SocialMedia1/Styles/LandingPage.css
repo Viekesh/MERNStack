@@ -17,7 +17,8 @@
 .landing_page {
     overflow: hidden;
     color: var(--black);
-    background: rgb(255, 185, 185);
+    /* background: rgb(255, 185, 185); */
+    background: rgb(202, 202, 250);
     padding: 1rem 1rem;
 }
 
@@ -26,7 +27,9 @@
     width: 22rem;
     height: 14rem;
     border-radius: 50%;
-    background: #698994;
+    /* background: rgb(219, 253, 169); */
+    /* background: rgb(106, 106, 242); */
+    background: pink;
     filter: blur(72px)
 }
 
@@ -39,7 +42,7 @@
     border-radius: 0.5rem;
     background: rgb(130, 130, 251);
     transition: all 100ms ease-out;
-    box-shadow: 1px 1px 18px 1px rgba(0, 0, 255, 0.6);
+    box-shadow: 1px 1px 18px 1px rgba(65, 65, 255, 0.6);
 }
 
 .button:hover {
