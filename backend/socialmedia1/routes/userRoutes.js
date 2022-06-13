@@ -1,5 +1,5 @@
 import express from "express";
-import { deleteUser, getUser, updateUser } from "../controllers/userController.js";
+import { deleteUser, followUser, getUser, unFollowUser, updateUser } from "../controllers/userController.js";
 
 
 
@@ -10,5 +10,9 @@ router.get("/:id", getUser);
 router.put("/:id", updateUser);
 
 router.delete("/:id", deleteUser);
+
+router.put("/:id", followUser);
+
+router.put("/:id", unFollowUser);
 
 export default router;
