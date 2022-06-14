@@ -135,4 +135,3 @@ export const getTimelinePosts = async (req, res) => {
     }
 };
 
-

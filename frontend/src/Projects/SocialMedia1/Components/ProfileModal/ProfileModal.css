@@ -1,0 +1,10 @@
+.infoForm {
+    font-family: "Poppins", sans-serif;
+}
+
+.infoButton {
+    width: 7rem;
+    height: 2rem;
+    margin-top: 1rem;
+    align-self: flex-end;
+}
