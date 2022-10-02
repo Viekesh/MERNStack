@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Here I have created different types of mern stack projects",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viekesh/MERNStack.git"
+  },
+  "keywords": [
+    "mern",
+    "stack",
+    "mern",
+    "stack",
+    "projects",
+    "javascript",
+    "projects",
+    "reactJs",
+    "projects"
+  ],
+  "author": "Vikesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Viekesh/MERNStack/issues"
+  },
+  "homepage": "https://github.com/Viekesh/MERNStack#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.6"
+  }
+}
