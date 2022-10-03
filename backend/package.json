@@ -2,10 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "Here I have created different types of mern stack projects",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "test": "nodemon index.js"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
